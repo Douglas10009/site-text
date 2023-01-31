@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    background: #000 url("/Image/bc-blur.png") no-repeat center fixed;
+    /* filter: blur(2px); */
+
+    text-align: center;
+
+    display: grid;
+    place-items: center;
+
+    height: 100vh;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+
+#main {
+    color: #B35BEA;
+
+    text-shadow: #240902;
+}
+
+button{
+    font-size: 1.7rem;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 1.7rem;
+
+    background-color: transparent;
+    color: #FF5744;
+
+    font-weight: bold;
+    outline: 2.5px solid black;
+
+    transition: background 0.5s, transform 1s;
+    transform: translateX(0) scale(0.9);
+}
+
+button:hover , button:focus{
+    background-color: #240902;
+    transform: translateX(10px) scale(1.2);
+}
